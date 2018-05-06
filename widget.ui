@@ -6,14 +6,24 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>399</width>
-    <height>281</height>
+    <width>385</width>
+    <height>265</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Widget</string>
+   <string>Bt_Search</string>
   </property>
   <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="0" colspan="3">
+    <widget class="QTextBrowser" name="textBrowser"/>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>v1.0.1  by:ADBin   纯粹的搜索</string>
+     </property>
+    </widget>
+   </item>
    <item row="0" column="0">
     <widget class="QLineEdit" name="search_key"/>
    </item>
@@ -21,16 +31,6 @@
     <widget class="QPushButton" name="go">
      <property name="text">
       <string>一键Boom</string>
-     </property>
-    </widget>
-   </item>
-   <item row="1" column="0" colspan="3">
-    <widget class="QTextBrowser" name="textBrowser"/>
-   </item>
-   <item row="2" column="0">
-    <widget class="QLabel" name="label">
-     <property name="text">
-      <string>v1.0.0</string>
      </property>
     </widget>
    </item>
