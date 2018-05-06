@@ -12,7 +12,7 @@ void spider::_spider(QString url_all,QString &code)
     QNetworkRequest test;
     test.setHeader(QNetworkRequest::UserAgentHeader, "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36");
     test.setUrl(url);
-    reply= manager.get(test);
+    //reply= manager.get(test);
 
     //请求结束并下载完成后，退出子事件循环
     QObject::connect(reply, SIGNAL(finished()), &loop, SLOT(quit()));
